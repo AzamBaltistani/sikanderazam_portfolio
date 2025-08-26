@@ -16,9 +16,9 @@
         "github": "https://github.com/AzamBaltistani/MediAiProject",
         "live": "https://medi-ai-azambaltistani.streamlit.app/",
         "images": [
-            "src/assets/medi_ai_screenshots/MediAi-LandingPage.png",
-            "src/assets/medi_ai_screenshots/MediAi-ScreenTimeSS.png",
-            "src/assets/medi_ai_screenshots/MediAi-ChatbotSS.png"
+            "/screenshots/medi_ai_screenshots/MediAi-LandingPage.png",
+            "/screenshots/medi_ai_screenshots/MediAi-ScreenTimeSS.png",
+            "/screenshots/medi_ai_screenshots/MediAi-ChatbotSS.png"
         ]
     },
     {
@@ -37,10 +37,10 @@
         "github": "https://github.com/AzamBaltistani/ML_Visualizer",
         "live": "https://ml-visualizer-azambaltistani.streamlit.app/",
         "images": [
-            "src/assets/ml_visualizer_screenshots/kmeans_1.gif",
-            "src/assets/ml_visualizer_screenshots/kmeans_2.gif",
-            "src/assets/ml_visualizer_screenshots/DBSCAN_SS.png",
-            "src/assets/ml_visualizer_screenshots/linear_reg.gif"
+            "/screenshots/ml_visualizer_screenshots/kmeans_1.gif",
+            "/screenshots/ml_visualizer_screenshots/kmeans_2.gif",
+            "/screenshots/ml_visualizer_screenshots/DBSCAN_SS.png",
+            "/screenshots/ml_visualizer_screenshots/linear_reg.gif"
         ]
     },
     {
@@ -62,10 +62,10 @@
         ],
         "github": "https://github.com/AzamBaltistani/digital_library_app",
         "images": [
-            "src/assets/digital_library_and_publication/login.png",
-            "src/assets/digital_library_and_publication/register_page_light.png",
-            "src/assets/digital_library_and_publication/explore_1.png",
-            "src/assets/digital_library_and_publication/explore_2.png"
+            "/screenshots/digital_library_and_publication/login.png",
+            "/screenshots/digital_library_and_publication/register_page_light.png",
+            "/screenshots/digital_library_and_publication/explore_1.png",
+            "/screenshots/digital_library_and_publication/explore_2.png"
         ]
     }
 ]
