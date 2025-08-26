@@ -16,10 +16,7 @@ const Projects = () => {
                 </h2>
                 <div className="flex flex-col gap-10 md:gap-24 h-full w-full">
                     {projects.map((project, i) => (
-                        <>
-                            <ProjectCardH key={i} project={project} index={i} />
-                            {/* <hr className="border-0 h-[1px] bg-gradient-to-r from-transparent via-neutral-500 dark:via-white to-transparent" /> */}
-                        </>
+                        <ProjectCardH key={i} project={project} index={i} />
                     ))}
                 </div>
             </div>

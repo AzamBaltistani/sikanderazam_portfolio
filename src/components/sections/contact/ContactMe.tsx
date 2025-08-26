@@ -105,6 +105,7 @@ const ContactMe = () => {
                             onChange={handleChange}
                             className="border border-gray-300 dark:border-neutral-800 p-3 rounded-lg w-full focus:outline-none focus:border-black dark:focus:border-neutral-400"
                             required
+                            autoComplete="name"
                         />
                         <input
                             type="email"
@@ -114,6 +115,7 @@ const ContactMe = () => {
                             onChange={handleChange}
                             className="border border-gray-300 dark:border-neutral-800 p-3 rounded-lg w-full focus:outline-none focus:border-black dark:focus:border-neutral-400"
                             required
+                            autoComplete="email"
                         />
                     </div>
                     <textarea

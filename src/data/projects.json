@@ -16,9 +16,9 @@
         "github": "https://github.com/AzamBaltistani/MediAiProject",
         "live": "https://medi-ai-azambaltistani.streamlit.app/",
         "images": [
-            "/screenshots/medi_ai_screenshots/MediAi-LandingPage.png",
-            "/screenshots/medi_ai_screenshots/MediAi-ScreenTimeSS.png",
-            "/screenshots/medi_ai_screenshots/MediAi-ChatbotSS.png"
+            "/sikanderazam_portfolio/screenshots/medi_ai_screenshots/MediAi-LandingPage.png",
+            "/sikanderazam_portfolio/screenshots/medi_ai_screenshots/MediAi-ScreenTimeSS.png",
+            "/sikanderazam_portfolio/screenshots/medi_ai_screenshots/MediAi-ChatbotSS.png"
         ]
     },
     {
@@ -37,10 +37,10 @@
         "github": "https://github.com/AzamBaltistani/ML_Visualizer",
         "live": "https://ml-visualizer-azambaltistani.streamlit.app/",
         "images": [
-            "/screenshots/ml_visualizer_screenshots/kmeans_1.gif",
-            "/screenshots/ml_visualizer_screenshots/kmeans_2.gif",
-            "/screenshots/ml_visualizer_screenshots/DBSCAN_SS.png",
-            "/screenshots/ml_visualizer_screenshots/linear_reg.gif"
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_1.gif",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_2.gif",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/DBSCAN_SS.png",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/linear_reg.gif"
         ]
     },
     {
@@ -62,10 +62,10 @@
         ],
         "github": "https://github.com/AzamBaltistani/digital_library_app",
         "images": [
-            "/screenshots/digital_library_and_publication/login.png",
-            "/screenshots/digital_library_and_publication/register_page_light.png",
-            "/screenshots/digital_library_and_publication/explore_1.png",
-            "/screenshots/digital_library_and_publication/explore_2.png"
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/login.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/register_page_light.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_1.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_2.png"
         ]
     }
 ]

@@ -118,7 +118,7 @@ const AboutMe = () => {
                     <div className="flex w-[50%] justify-start items-center not-md:justify-center">
                         <div className="flex md:w-[65%] lg:w-[60%] xl:w-[50%] justify-end px-2">
                             <div className="flex w-24 h-24 md:w-44 md:h-44 lg:w-60 lg:h-60 rounded-full border-2 border-black">
-                                <img src="/profile/image_nobg.png" className="w-full h-full object-contain rounded-full" alt="Sikander Azam" />
+                                <img src="/sikanderazam_portfolio/profile/image_nobg.png" className="w-full h-full object-contain rounded-full" alt="Sikander Azam" />
                             </div>
                         </div>
                     </div>
