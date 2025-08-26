@@ -1,9 +1,9 @@
 import type { ReactNode } from "react";
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiOpenaiFill } from "react-icons/ri";
 import { FaGithubSquare, FaLinkedin, FaReact, FaPython, FaDatabase } from "react-icons/fa";
-import { SiDjango, SiMongodb, SiFirebase, SiScikitlearn, SiHuggingface, SiPytorch, SiTensorflow } from "react-icons/si";
+import { SiDjango, SiMongodb, SiScikitlearn, SiTensorflow } from "react-icons/si";
+import { LuBrainCircuit } from "react-icons/lu";
 import { BiNetworkChart } from "react-icons/bi";
 import SocialLink from "../SocialLink";
 
@@ -15,13 +15,11 @@ type TechStackProps = {
 
 const TechStackItem = ({ icon, name }: TechStackProps) => {
     return (
-        <div className="flex flex-col items-center justify-center w-full h-full p-0.5">
-            <div className="h-[60%] w-full">
-                {icon}
-            </div>
-            <p className="h-[40%] w-full text-nowrap truncate text-xs text-center">
+        <div className="flex flex-col items-center justify-center h-16 basis-1/4 md:basis-1/6 lg:basis-1/8 flex-none border rounded">
+            <div className="flex w-full h-10 justify-center items-center">{icon}</div>
+            <div className="h-6 text-center text-nowrap text-xs md:text-sm truncate">
                 {name}
-            </p>
+            </div>
         </div>
     )
 }
@@ -32,71 +30,64 @@ const AboutMe = () => {
         {
             name: "Django",
             techDomain: "Backend",
-            icon: <SiDjango className="w-full h-full p-0 m-0" />
+            icon: <SiDjango className="h-full w-full p-0.5 md:p-1" />
         },
         {
             name: "Python",
             techDomain: "Backend / AI",
-            icon: <FaPython className="w-full h-full p-0 m-0" />
+            icon: <FaPython className="h-full w-full p-0.5 md:p-1" />
         },
         {
             name: "RESTful API",
             techDomain: "API",
-            icon: <BiNetworkChart className="w-full h-full p-0 m-0" />
+            icon: <BiNetworkChart className="h-full w-full p-0.5 md:p-1" />
         },
 
         // Frontend
         {
             name: "React",
             techDomain: "Frontend",
-            icon: <FaReact className="w-full h-full p-0 m-0" />
+            icon: <FaReact className="h-full w-full p-0.5 md:p-1" />
         },
         {
             name: "TailwindCSS",
             techDomain: "Frontend",
-            icon: <RiTailwindCssFill className="w-full h-full p-0 m-0" />
+            icon: <RiTailwindCssFill className="h-full w-full p-0.5 md:p-1" />
         },
 
         // AI / Machine Learning
         {
-            name: "TensorFlow",
+            name: "AI",
             techDomain: "Artificial Intelligence / Machine Learning",
-            icon: <SiTensorflow className="w-full h-full p-0 m-0" />
+            icon: <LuBrainCircuit className="h-full w-full p-0.5 md:p-1" />
+
         },
         {
-            name: "PyTorch",
+            name: "Chatbots/LLM",
+            techDomain: "Artificial Intelligence / Natural Language Processing",
+            icon: <RiOpenaiFill className="h-full w-full p-0.5 md:p-1" />
+        },
+        {
+            name: "TensorFlow",
             techDomain: "Artificial Intelligence / Machine Learning",
-            icon: <SiPytorch className="w-full h-full p-0 m-0" />
+            icon: <SiTensorflow className="h-full w-full p-0.5 md:p-1" />
         },
         {
             name: "Scikit-learn",
             techDomain: "Machine Learning",
-            icon: <SiScikitlearn className="w-full h-full p-0 m-0" />
+            icon: <SiScikitlearn className="h-full w-full p-0.5 md:p-1" />
         },
-        {
-            name: "Hugging Face Transformers",
-            techDomain: "Natural Language Processing",
-            icon: <SiHuggingface className="w-full h-full p-0 m-0" />
-        },
-
         // Database
         {
             name: "MongoDB",
             techDomain: "Database",
-            icon: <SiMongodb className="w-full h-full p-0 m-0" />
+            icon: <SiMongodb className="h-full w-full p-0.5 md:p-1" />
         },
         {
             name: "SQL",
             techDomain: "Database",
-            icon: <FaDatabase className="w-full h-full p-0 m-0" />
-        },
-        {
-            name: "Firebase",
-            techDomain: "Backend / Hosting / Database",
-            icon: <SiFirebase className="w-full h-full p-0 m-0" />
+            icon: <FaDatabase className="h-full w-full p-0.5 md:p-1" />
         }
-
-
     ];
 
     return (
@@ -104,7 +95,7 @@ const AboutMe = () => {
             id="about"
             className="w-full min-h-[90vh] container flex"
         >
-            <div className="flex flex-col h-[90%] w-full items-center justify-center">
+            <div className="flex flex-col h-[100%] w-full items-center justify-center">
                 <div className="flex w-full items-center justify-center p-1 md:p-2 not-md:flex-col-reverse">
                     <div className="flex w-full md:w-[50%] flex-col justify-center items-end md:items-end ">
                         <div className="flex flex-col w-full md:w-[65%] lg:w-[60%] xl:w-[50%] gap-1 px-2 not-md:items-center not-md:justify-center">
@@ -115,7 +106,7 @@ const AboutMe = () => {
                                 </h1>
                             </div>
                             <div>
-                                <p className="font-light not-md:text-center">Full Stack Developer with strong AI and Machine Learning Background</p>
+                                <p className="font-light not-md:text-center">Full Stack Developer with AI and Machine Learning Capabilities</p>
                             </div>
                             <div className="flex mt-3 md:mt-5 lg:mt-8 gap-1 md:gap-2">
                                 <SocialLink link="https://github.com/AzamBaltistani" icon=<FaGithubSquare className="w-full h-full p-0 m-0" /> description={"Github"} />
@@ -133,20 +124,13 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="flex w-full items-center justify-center pt-4 md:pt-6 lg:pt-8">
-                    <div className="flex w-full md:w-[85%] lg:w-[80%] xl:w-[70%] px-2 items-center not-md:flex-col gap-4 justify-center">
-                        <h4 className="font-semibold pr-1 md:pr-2 w-fit text-nowrap md:border-r-2 md:border-r-black md:dark:border-r-white">Tech Stack</h4>
-
-                        <ScrollArea className="w-full md:w-fit flex p-0 m-0 translate-0 overflow-hidden items-center justify-center">
-                            <div className="flex py-3 items-center justify-center ">
-
-                                {techStacks.map((stack, index) => (
-                                    <div className="flex items-center w-16 md:w-16 h-12 md:h-12" key={index}>
-                                        <TechStackItem name={stack.name} icon={stack.icon} techDomain={stack.techDomain} />
-                                    </div>
-                                ))}
-                            </div>
-                            <ScrollBar orientation="horizontal" className="" />
-                        </ScrollArea>
+                    <div className="flex flex-col w-full md:w-[85%] lg:w-[80%] xl:w-[70%] px-2 items-center gap-4 justify-center">
+                        <h4 className="font-semibold w-fit text-nowrap md:text-lg lg:text-xl">Technologies</h4>
+                        <div className="flex flex-wrap justify-center gap-2 w-full h-full">
+                            {techStacks.map((stack, index) => (
+                                <TechStackItem icon={stack.icon} name={stack.name} techDomain={stack.techDomain} key={index} />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

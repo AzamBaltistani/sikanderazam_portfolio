@@ -1,19 +1,7 @@
 import CopySectionLink from "../CopySectionLink";
+import educationData from "../../../data/education_data.json"
 
 const Education = () => {
-    const educationData = [
-        {
-            title: "Bachelor of Science, Intelligent Systems and Robotics",
-            period: "2021 - 2025",
-            institute: "The Islamia University of Bahawalpur"
-        },
-        {
-            title: "Certificate in Artificial Intelligence (10 Months)",
-            period: "2023 - 2024",
-            institute: "PAK AI Vission Group, USA"
-        }
-    ];
-
     return (
         <section id="education" className="w-full min-h-[60vh] container flex flex-col items-center justify-center py-10 px-2">
             <h2 className="text-3xl font-bold text-black dark:text-white mb-8">

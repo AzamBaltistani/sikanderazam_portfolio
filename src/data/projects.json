@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Medi-AI: AI Healthcare Service",
+        "keyPoints": [
+            "AI Health Platform: Developed a web app with features like mental health analysis, disease prediction, and an AI chatbot.",
+            "Tech Stack: Used Django REST, ReactJS, and integrated ML models for predictions.",
+            "Smart UI/UX: Designed responsive UI with charts, animations, and chat history using local storage."
+        ],
+        "tech": [
+            "React",
+            "Django",
+            "Tailwind CSS",
+            "LSTM",
+            "XGBoost"
+        ],
+        "github": "https://github.com/AzamBaltistani/MediAiProject",
+        "live": "https://medi-ai-azambaltistani.streamlit.app/",
+        "images": [
+            "src/assets/medi_ai_screenshots/MediAi-LandingPage.png",
+            "src/assets/medi_ai_screenshots/MediAi-ScreenTimeSS.png",
+            "src/assets/medi_ai_screenshots/MediAi-ChatbotSS.png"
+        ]
+    },
+    {
+        "title": "ML Algorithm Visualizer - Interactive Web App",
+        "keyPoints": [
+            "Real time ML Algorithms visualizer.",
+            "Users can add data points, adjust parameters, and see model outputs update in real time.",
+            "Responsive UI with charts and animations"
+        ],
+        "tech": [
+            "Python",
+            "Streamlit",
+            "DBSCAN",
+            "KMeans"
+        ],
+        "github": "https://github.com/AzamBaltistani/ML_Visualizer",
+        "live": "https://ml-visualizer-azambaltistani.streamlit.app/",
+        "images": [
+            "src/assets/ml_visualizer_screenshots/kmeans_1.gif",
+            "src/assets/ml_visualizer_screenshots/kmeans_2.gif",
+            "src/assets/ml_visualizer_screenshots/DBSCAN_SS.png",
+            "src/assets/ml_visualizer_screenshots/linear_reg.gif"
+        ]
+    },
+    {
+        "title": "Digital Library and Publication (in progress)",
+        "keyPoints": [
+            "Full Stack library application using Django and React",
+            "Django REST API & React integration",
+            "Authentication and Payment integration",
+            "Role-based access: Author, User, Admin",
+            "Authors can add and manage books, articles, blogs and more",
+            "Users can buy or borrow them",
+            "Responsive and Dark/Light/System Mode"
+        ],
+        "tech": [
+            "React",
+            "Django",
+            "Tailwind CSS",
+            "PostgreSQL"
+        ],
+        "github": "https://github.com/AzamBaltistani/digital_library_app",
+        "images": [
+            "src/assets/digital_library_and_publication/login.png",
+            "src/assets/digital_library_and_publication/register_page_light.png",
+            "src/assets/digital_library_and_publication/explore_1.png",
+            "src/assets/digital_library_and_publication/explore_2.png"
+        ]
+    }
+]
