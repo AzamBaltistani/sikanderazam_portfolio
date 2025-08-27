@@ -37,7 +37,7 @@ const ProjectCardH = ({ project, index }: ProjectCardProps) => {
                         </h2>
 
                         {/* Key Points */}
-                        <ul className="flex flex-col space-y-1 overflow-y-auto scroll-m-0.5 pr-2">
+                        <ul className="flex flex-col space-y-1 overflow-y-auto scrollbar-thin scrollbar-thumb-neutral-400 dark:scrollbar-thumb-neutral-600 scrollbar-track-transparent scroll-m-0.5 pr-2">
                             {project.keyPoints.map((point, i) => (
                                 <li
                                     key={i}
@@ -52,7 +52,7 @@ const ProjectCardH = ({ project, index }: ProjectCardProps) => {
 
                     {/* Tech Stack */}
                     <div className="h-[20%] md:h-[15%] flex flex-col items-center justify-center">
-                        <div className="flex gap-2 h-fit items-center justify-center overflow-x-auto w-full py-1 overflow-y-hidden space-y-1 scroll-m-0.5">
+                        <div className="flex gap-2 h-fit items-center justify-start px-2 overflow-x-auto scrollbar-thin scrollbar-thumb-neutral-400 dark:scrollbar-thumb-neutral-600 scrollbar-track-transparent w-full py-1 overflow-y-hidden space-y-1 scroll-m-0.5">
                             {project.tech.map((t, i) => (
                                 <code
                                     key={i}

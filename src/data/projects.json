@@ -64,10 +64,10 @@
         "github": "https://github.com/AzamBaltistani/ExpenseTrackerWebApp_2/",
         "live": "https://azambaltistani.github.io/ExpenseTrackerWebApp_2/",
         "images": [
-            "public/screenshots/expense_tracker/home_page.png",
-            "public/screenshots/expense_tracker/incomes.png",
-            "public/screenshots/expense_tracker/expenses_dark.png",
-            "public/screenshots/expense_tracker/search_and_filter_dark.png"
+            "/sikanderazam_portfolio/screenshots/expense_tracker/home_page.png",
+            "/sikanderazam_portfolio/screenshots/expense_tracker/incomes.png",
+            "/sikanderazam_portfolio/screenshots/expense_tracker/expenses_dark.png",
+            "/sikanderazam_portfolio/screenshots/expense_tracker/search_and_filter_dark.png"
         ]
     },
     {
