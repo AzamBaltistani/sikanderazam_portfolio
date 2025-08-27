@@ -44,6 +44,31 @@
         ]
     },
     {
+        "title": "Expense Tracker Web App",
+        "keyPoints": [
+            "Developed a responsive income and expense tracker using ReactJS and TypeScript, following modern web development best practices and dark/light themes. ",
+            "Implemented dynamic data visualization with area, bar, pie, and line charts for intuitive financial insights. ",
+            "Built advanced filtering features including date range, transaction type, and URL-synced query parameters for persistent state. ",
+            "Utilized ShadCN UI components (calendar, tables, charts) and LocalStorage for data persistence without backend. ",
+            "Employed modular code structure, state management, and clean UI design for a smooth user experience. "
+        ],
+        "tech": [
+            "React",
+            "Typescript",
+            "Tailwind CSS",
+            "ShadCN UI",
+            "Data Visualization",
+            "Local Storarge"
+        ],
+        "github": "https://github.com/AzamBaltistani/digital_library_app",
+        "images": [
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/login.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/register_page_light.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_1.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_2.png"
+        ]
+    },
+    {
         "title": "Digital Library and Publication (in progress)",
         "keyPoints": [
             "Full Stack library application using Django and React",
