@@ -22,25 +22,51 @@
         ]
     },
     {
-        "title": "ML Algorithm Visualizer - Interactive Web App",
+        "title": "Todo List with Local Storage (2023)",
         "keyPoints": [
-            "Real time ML Algorithms visualizer.",
-            "Users can add data points, adjust parameters, and see model outputs update in real time.",
-            "Responsive UI with charts and animations"
+            "Developed a task management web app using Next.js and Javascript",
+            "Dynamic list handling and custom sorting mechanisms",
+            "Responsive UI was designed with TailwindCSS",
+            "Supporting both dark and light themes"
         ],
         "tech": [
-            "Python",
-            "Streamlit",
-            "DBSCAN",
-            "KMeans"
+            "NextJs",
+            "Javascript",
+            "Tailwind CSS",
+            "Local Storarge"
         ],
-        "github": "https://github.com/AzamBaltistani/ML_Visualizer",
-        "live": "https://ml-visualizer-azambaltistani.streamlit.app/",
+        "github": "https://github.com/AzamBaltistani/todo-with-localstorage",
+        "live": "https://azambaltistani.github.io/todo-with-localstorage/",
         "images": [
-            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_1.gif",
-            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_2.gif",
-            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/DBSCAN_SS.png",
-            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/linear_reg.gif"
+            "/sikanderazam_portfolio/screenshots/todo-list/img1.png",
+            "/sikanderazam_portfolio/screenshots/todo-list/img2.png",
+            "/sikanderazam_portfolio/screenshots/todo-list/img3.png",
+            "/sikanderazam_portfolio/screenshots/todo-list/img4.png"
+        ]
+    },
+    {
+        "title": "Digital Library and Publication (in progress)",
+        "keyPoints": [
+            "Full Stack library application using Django and React",
+            "Django REST API & React integration",
+            "Authentication and Payment integration",
+            "Role-based access: Author, User, Admin",
+            "Authors can add and manage books, articles, blogs and more",
+            "Users can buy or borrow them",
+            "Responsive and Dark/Light/System Mode"
+        ],
+        "tech": [
+            "React",
+            "Django",
+            "Tailwind CSS",
+            "PostgreSQL"
+        ],
+        "github": "https://github.com/AzamBaltistani/digital_library_app",
+        "images": [
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/login.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/register_page_light.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_1.png",
+            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_2.png"
         ]
     },
     {
@@ -71,28 +97,25 @@
         ]
     },
     {
-        "title": "Digital Library and Publication (in progress)",
+        "title": "ML Algorithm Visualizer - Interactive Web App",
         "keyPoints": [
-            "Full Stack library application using Django and React",
-            "Django REST API & React integration",
-            "Authentication and Payment integration",
-            "Role-based access: Author, User, Admin",
-            "Authors can add and manage books, articles, blogs and more",
-            "Users can buy or borrow them",
-            "Responsive and Dark/Light/System Mode"
+            "Real time ML Algorithms visualizer.",
+            "Users can add data points, adjust parameters, and see model outputs update in real time.",
+            "Responsive UI with charts and animations"
         ],
         "tech": [
-            "React",
-            "Django",
-            "Tailwind CSS",
-            "PostgreSQL"
+            "Python",
+            "Streamlit",
+            "DBSCAN",
+            "KMeans"
         ],
-        "github": "https://github.com/AzamBaltistani/digital_library_app",
+        "github": "https://github.com/AzamBaltistani/ML_Visualizer",
+        "live": "https://ml-visualizer-azambaltistani.streamlit.app/",
         "images": [
-            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/login.png",
-            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/register_page_light.png",
-            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_1.png",
-            "/sikanderazam_portfolio/screenshots/digital_library_and_publication/explore_2.png"
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_1.gif",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/kmeans_2.gif",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/DBSCAN_SS.png",
+            "/sikanderazam_portfolio/screenshots/ml_visualizer_screenshots/linear_reg.gif"
         ]
     }
 ]
