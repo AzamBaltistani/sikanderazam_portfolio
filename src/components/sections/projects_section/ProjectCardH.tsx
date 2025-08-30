@@ -20,7 +20,7 @@ interface ProjectCardProps {
 const ProjectCardH = ({ project, index }: ProjectCardProps) => {
     const isOdd = index % 2 == 1;
     return (
-        <div className="flex flex-col w-full max-h-[70vh] h-[70vh] md:max-h-[60vh] md:h-[60vh] p-3 rounded-2xl">
+        <div className={`flex flex-col w-full max-h-[70vh] h-[70vh] md:max-h-[60vh] md:h-[60vh] p-3 rounded-2xl ${isOdd ? 'bg-neutral-100 dark:bg-neutral-900' : 'bg-white dark:bg-neutral-950'}`}>
             {/* Top Content */}
             <div className={`flex flex-col-reverse h-[100%] gap-3 ${isOdd ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
                 {/* Image Carousel */}
